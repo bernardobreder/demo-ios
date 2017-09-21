@@ -1,0 +1,19 @@
+//
+//  ViewController.h
+//  UIPresentationController
+//
+//  Created by Bernardo Breder on 30/08/14.
+//  Copyright (c) 2014 Bernardo Breder. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "ListViewController.h"
+#import "DetailViewController.h"
+
+@interface ViewController : UIViewController
+
+@property (nonatomic, strong) ListViewController *listViewController;
+@property (nonatomic, strong) DetailViewController *detailViewController;
+
+@end
+
