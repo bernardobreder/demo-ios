@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0164475D18F745C7005598F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0164475C18F745C7005598F3 /* Foundation.framework */; };
+		0164475F18F745C7005598F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0164475E18F745C7005598F3 /* CoreGraphics.framework */; };
+		0164476118F745C7005598F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0164476018F745C7005598F3 /* UIKit.framework */; };
+		0164476718F745C7005598F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0164476518F745C7005598F3 /* InfoPlist.strings */; };
+		0164476918F745C7005598F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0164476818F745C7005598F3 /* main.m */; };
+		0164476D18F745C7005598F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0164476C18F745C7005598F3 /* AppDelegate.m */; };
+		0164476F18F745C8005598F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0164476E18F745C8005598F3 /* Images.xcassets */; };
+		0164477618F745C8005598F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0164477518F745C8005598F3 /* XCTest.framework */; };
+		0164477718F745C8005598F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0164475C18F745C7005598F3 /* Foundation.framework */; };
+		0164477818F745C8005598F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0164476018F745C7005598F3 /* UIKit.framework */; };
+		0164478018F745C8005598F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0164477E18F745C8005598F3 /* InfoPlist.strings */; };
+		0164478218F745C8005598F3 /* iMailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0164478118F745C8005598F3 /* iMailTests.m */; };
+		0164478C18F74670005598F3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0164478B18F74670005598F3 /* MessageUI.framework */; };
+		0164479218F746A5005598F3 /* ListContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0164479118F746A5005598F3 /* ListContactViewController.m */; };
+		0171B59A18F7507000B26CC4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0171B59918F7507000B26CC4 /* libsqlite3.dylib */; };
+		0171B59F18F7508F00B26CC4 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 0171B59E18F7508F00B26CC4 /* Contact.m */; };
+		0171B5A218F750E300B26CC4 /* ContactDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0171B5A118F750E300B26CC4 /* ContactDB.m */; };
+		0171B5A518F7521500B26CC4 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 0171B5A418F7521500B26CC4 /* Database.m */; };
+		0171B5AB18F7540700B26CC4 /* ServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0171B5AA18F7540700B26CC4 /* ServiceLocator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0164477918F745C8005598F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0164475118F745C7005598F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0164475818F745C7005598F3;
+			remoteInfo = iMail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0164475918F745C7005598F3 /* iMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0164475C18F745C7005598F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0164475E18F745C7005598F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0164476018F745C7005598F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0164476418F745C7005598F3 /* iMail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMail-Info.plist"; sourceTree = "<group>"; };
+		0164476618F745C7005598F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0164476818F745C7005598F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0164476A18F745C7005598F3 /* iMail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMail-Prefix.pch"; sourceTree = "<group>"; };
+		0164476B18F745C7005598F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0164476C18F745C7005598F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0164476E18F745C8005598F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0164477418F745C8005598F3 /* iMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0164477518F745C8005598F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0164477D18F745C8005598F3 /* iMailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMailTests-Info.plist"; sourceTree = "<group>"; };
+		0164477F18F745C8005598F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0164478118F745C8005598F3 /* iMailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMailTests.m; sourceTree = "<group>"; };
+		0164478B18F74670005598F3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0164479018F746A5005598F3 /* ListContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListContactViewController.h; path = Controller/Contact/List/ListContactViewController.h; sourceTree = "<group>"; };
+		0164479118F746A5005598F3 /* ListContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListContactViewController.m; path = Controller/Contact/List/ListContactViewController.m; sourceTree = "<group>"; };
+		0171B59918F7507000B26CC4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0171B59D18F7508F00B26CC4 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contact.h; path = Model/Contact/Contact.h; sourceTree = "<group>"; };
+		0171B59E18F7508F00B26CC4 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Contact.m; path = Model/Contact/Contact.m; sourceTree = "<group>"; };
+		0171B5A018F750E300B26CC4 /* ContactDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactDB.h; path = Model/Contact/ContactDB.h; sourceTree = "<group>"; };
+		0171B5A118F750E300B26CC4 /* ContactDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactDB.m; path = Model/Contact/ContactDB.m; sourceTree = "<group>"; };
+		0171B5A318F7521500B26CC4 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Database.h; path = Model/Database.h; sourceTree = "<group>"; };
+		0171B5A418F7521500B26CC4 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Database.m; path = Model/Database.m; sourceTree = "<group>"; };
+		0171B5A918F7540700B26CC4 /* ServiceLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceLocator.h; path = Model/ServiceLocator.h; sourceTree = "<group>"; };
+		0171B5AA18F7540700B26CC4 /* ServiceLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServiceLocator.m; path = Model/ServiceLocator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0164475618F745C7005598F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0171B59A18F7507000B26CC4 /* libsqlite3.dylib in Frameworks */,
+				0164478C18F74670005598F3 /* MessageUI.framework in Frameworks */,
+				0164475F18F745C7005598F3 /* CoreGraphics.framework in Frameworks */,
+				0164476118F745C7005598F3 /* UIKit.framework in Frameworks */,
+				0164475D18F745C7005598F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0164477118F745C8005598F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0164477618F745C8005598F3 /* XCTest.framework in Frameworks */,
+				0164477818F745C8005598F3 /* UIKit.framework in Frameworks */,
+				0164477718F745C8005598F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0164475018F745C7005598F3 = {
+			isa = PBXGroup;
+			children = (
+				0171B59B18F7507900B26CC4 /* Model */,
+				0164478D18F74679005598F3 /* Controller */,
+				0164476218F745C7005598F3 /* iMail */,
+				0164477B18F745C8005598F3 /* iMailTests */,
+				0164475B18F745C7005598F3 /* Frameworks */,
+				0164475A18F745C7005598F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0164475A18F745C7005598F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0164475918F745C7005598F3 /* iMail.app */,
+				0164477418F745C8005598F3 /* iMailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0164475B18F745C7005598F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0171B59918F7507000B26CC4 /* libsqlite3.dylib */,
+				0164478B18F74670005598F3 /* MessageUI.framework */,
+				0164475C18F745C7005598F3 /* Foundation.framework */,
+				0164475E18F745C7005598F3 /* CoreGraphics.framework */,
+				0164476018F745C7005598F3 /* UIKit.framework */,
+				0164477518F745C8005598F3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0164476218F745C7005598F3 /* iMail */ = {
+			isa = PBXGroup;
+			children = (
+				0164476B18F745C7005598F3 /* AppDelegate.h */,
+				0164476C18F745C7005598F3 /* AppDelegate.m */,
+				0164476E18F745C8005598F3 /* Images.xcassets */,
+				0164476318F745C7005598F3 /* Supporting Files */,
+			);
+			path = iMail;
+			sourceTree = "<group>";
+		};
+		0164476318F745C7005598F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0164476418F745C7005598F3 /* iMail-Info.plist */,
+				0164476518F745C7005598F3 /* InfoPlist.strings */,
+				0164476818F745C7005598F3 /* main.m */,
+				0164476A18F745C7005598F3 /* iMail-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0164477B18F745C8005598F3 /* iMailTests */ = {
+			isa = PBXGroup;
+			children = (
+				0164478118F745C8005598F3 /* iMailTests.m */,
+				0164477C18F745C8005598F3 /* Supporting Files */,
+			);
+			path = iMailTests;
+			sourceTree = "<group>";
+		};
+		0164477C18F745C8005598F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0164477D18F745C8005598F3 /* iMailTests-Info.plist */,
+				0164477E18F745C8005598F3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0164478D18F74679005598F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0164478E18F7467C005598F3 /* Contact */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0164478E18F7467C005598F3 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				0164478F18F7468B005598F3 /* List */,
+			);
+			name = Contact;
+			sourceTree = "<group>";
+		};
+		0164478F18F7468B005598F3 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				0164479018F746A5005598F3 /* ListContactViewController.h */,
+				0164479118F746A5005598F3 /* ListContactViewController.m */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		0171B59B18F7507900B26CC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0171B59C18F7507D00B26CC4 /* Contact */,
+				0171B5A318F7521500B26CC4 /* Database.h */,
+				0171B5A418F7521500B26CC4 /* Database.m */,
+				0171B5A918F7540700B26CC4 /* ServiceLocator.h */,
+				0171B5AA18F7540700B26CC4 /* ServiceLocator.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0171B59C18F7507D00B26CC4 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				0171B59D18F7508F00B26CC4 /* Contact.h */,
+				0171B59E18F7508F00B26CC4 /* Contact.m */,
+				0171B5A018F750E300B26CC4 /* ContactDB.h */,
+				0171B5A118F750E300B26CC4 /* ContactDB.m */,
+			);
+			name = Contact;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0164475818F745C7005598F3 /* iMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0164478518F745C8005598F3 /* Build configuration list for PBXNativeTarget "iMail" */;
+			buildPhases = (
+				0164475518F745C7005598F3 /* Sources */,
+				0164475618F745C7005598F3 /* Frameworks */,
+				0164475718F745C7005598F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMail;
+			productName = iMail;
+			productReference = 0164475918F745C7005598F3 /* iMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0164477318F745C8005598F3 /* iMailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0164478818F745C8005598F3 /* Build configuration list for PBXNativeTarget "iMailTests" */;
+			buildPhases = (
+				0164477018F745C8005598F3 /* Sources */,
+				0164477118F745C8005598F3 /* Frameworks */,
+				0164477218F745C8005598F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0164477A18F745C8005598F3 /* PBXTargetDependency */,
+			);
+			name = iMailTests;
+			productName = iMailTests;
+			productReference = 0164477418F745C8005598F3 /* iMailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0164475118F745C7005598F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bernardo Breder";
+				TargetAttributes = {
+					0164477318F745C8005598F3 = {
+						TestTargetID = 0164475818F745C7005598F3;
+					};
+				};
+			};
+			buildConfigurationList = 0164475418F745C7005598F3 /* Build configuration list for PBXProject "iMail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0164475018F745C7005598F3;
+			productRefGroup = 0164475A18F745C7005598F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0164475818F745C7005598F3 /* iMail */,
+				0164477318F745C8005598F3 /* iMailTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0164475718F745C7005598F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0164476718F745C7005598F3 /* InfoPlist.strings in Resources */,
+				0164476F18F745C8005598F3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0164477218F745C8005598F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0164478018F745C8005598F3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0164475518F745C7005598F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0171B59F18F7508F00B26CC4 /* Contact.m in Sources */,
+				0164476D18F745C7005598F3 /* AppDelegate.m in Sources */,
+				0171B5A218F750E300B26CC4 /* ContactDB.m in Sources */,
+				0164476918F745C7005598F3 /* main.m in Sources */,
+				0171B5AB18F7540700B26CC4 /* ServiceLocator.m in Sources */,
+				0171B5A518F7521500B26CC4 /* Database.m in Sources */,
+				0164479218F746A5005598F3 /* ListContactViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0164477018F745C8005598F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0164478218F745C8005598F3 /* iMailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0164477A18F745C8005598F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0164475818F745C7005598F3 /* iMail */;
+			targetProxy = 0164477918F745C8005598F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0164476518F745C7005598F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0164476618F745C7005598F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0164477E18F745C8005598F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0164477F18F745C8005598F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0164478318F745C8005598F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0164478418F745C8005598F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0164478618F745C8005598F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMail/iMail-Prefix.pch";
+				INFOPLIST_FILE = "iMail/iMail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0164478718F745C8005598F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMail/iMail-Prefix.pch";
+				INFOPLIST_FILE = "iMail/iMail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0164478918F745C8005598F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iMail.app/iMail";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMail/iMail-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iMailTests/iMailTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0164478A18F745C8005598F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iMail.app/iMail";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMail/iMail-Prefix.pch";
+				INFOPLIST_FILE = "iMailTests/iMailTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0164475418F745C7005598F3 /* Build configuration list for PBXProject "iMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0164478318F745C8005598F3 /* Debug */,
+				0164478418F745C8005598F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0164478518F745C8005598F3 /* Build configuration list for PBXNativeTarget "iMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0164478618F745C8005598F3 /* Debug */,
+				0164478718F745C8005598F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0164478818F745C8005598F3 /* Build configuration list for PBXNativeTarget "iMailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0164478918F745C8005598F3 /* Debug */,
+				0164478A18F745C8005598F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0164475118F745C7005598F3 /* Project object */;
+}
